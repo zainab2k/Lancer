@@ -1,0 +1,14 @@
+#Freelancer{
+    background: #ddd;
+}
+.heading::before {
+    content: "{ ";
+    color: #41abce ;
+}
+.heading::after {
+    content: " }";
+    color:#41abce ;
+}
+.btn-primary{
+    background: #41abce;
+}

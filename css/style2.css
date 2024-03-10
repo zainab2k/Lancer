@@ -1,0 +1,65 @@
+.intro{
+    background-image: url("home1.jpg");
+    background-size: cover;
+    height: 91.5vh;
+    display: flex;
+    opacity: 0.8; 
+    transform: translate3d(0,0,-1px) scale(1);
+    z-index: -2;
+    position: relative;
+    overflow: hidden;
+}
+#intoduce{
+    overflow: hidden;
+    transform-style: preserve-3d;
+}
+
+.intro h6{
+    font-size: 50px;
+    font-weight: 350;
+    letter-spacing: 2px;
+    color: #41abce;
+}
+.intro p{
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.mouse-scroll {
+    width: 1.8rem;
+    height: 4em;
+    border: 2px solid #fdfdfd;
+    border-radius: 30px;
+    position: absolute;
+    top: 88%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.arrow-scroll {
+    position: relative;
+    height: 4em;
+}
+.mouse-scroll::before {
+    content: '';
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 50%;
+    background: #fdfdfd;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    animation: scroll 2.5s infinite;
+}
+@keyframes scroll {
+    0% {
+        bottom: 80%;
+        opacity: 1;
+    }
+    100% {
+        bottom: 20%;
+        opacity: 0;
+    }
+    
+}
+

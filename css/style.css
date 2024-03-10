@@ -1,0 +1,22 @@
+.nav-item{
+    font-size: 0.8rem;
+    font-weight:600;
+    letter-spacing: 0.18rem;
+    bottom: 30px;
+}
+.navbar-brand{
+    letter-spacing: 2px;
+}
+#navBar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    /* border-radius: 30px; */
+}
+.nav-link{
+    border-radius: 30px;
+}
+body{
+    min-height: 200vh;
+}

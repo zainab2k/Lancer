@@ -1,0 +1,35 @@
+
+.nav-link{
+    color: darkblue;
+}
+.nav-link:hover,
+.nav-link.active{
+    color: darkblue;
+    background: #41abce;
+}
+#aboutme{
+    /* background: whitesmoke; */
+    h6{
+        color: #41abce;
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-weight: 400;
+    }
+    .fa-solid{
+        /* background: #41abce; */
+        color: #41abce;
+    }
+    div{
+        font-size: 12px;
+        letter-spacing: 0.8px;
+       
+    }
+}
+.text-center {
+    font-weight: 350;
+    color: #41abce;
+    letter-spacing: 2px;
+}
+span{
+    color: black;
+}
